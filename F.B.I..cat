@@ -1,0 +1,1599 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="1812-fd2b-97b2-5413" name="F.B.I." revision="4" battleScribeVersion="2.01" gameSystemId="f591-b48d-a1c5-f372" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries>
+    <forceEntry id="adfa-ae82-f773-16a7" name="Posse" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="adfa-ae82-f773-16a7" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2249-a4d9-1017-c5bc" type="min"/>
+        <constraint field="selections" scope="adfa-ae82-f773-16a7" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb15-c97f-6c60-0d14" type="max"/>
+      </constraints>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="2d78-af30-d3ec-9d32" name="Heroes" hidden="false" targetId="a99ce2af-4b23-caf3-113b-8864881eeb09" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c067-472f-f212-da45" name="Henchmen" hidden="false" targetId="50528bc6-df85-9543-2cfa-08bf960a74e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="0f16-720d-55c0-f36b" name="Supervisory Special Agent" hidden="false" targetId="064c-7a86-e53f-e748" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="7102-3f99-3f95-9606" name="Probationary Agents" hidden="false" targetId="194c-47cf-3890-1fec" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d1e5-f2af-36e4-25d2" name="Senior Special Agent" hidden="false" targetId="9f41-30de-4cc9-a216" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="970a-95c2-713e-2c60" name="Special Agent" hidden="false" targetId="03c1-202a-0ba6-821e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="064c-7a86-e53f-e748" name="Supervisory Special Agent" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="768b-ee08-28e8-224d" name="Supervisory Special Agent" hidden="false" profileTypeId="26560ded-284d-ff6c-f97e-0caee6d11d0b" profileTypeName="Heroe">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Shootin&apos;" characteristicTypeId="34000175-fc20-3119-ba49-d9359dd221f7" value="4+"/>
+            <characteristic name="Fightin&apos;" characteristicTypeId="f663c57a-de34-3c05-bc13-2adf5e4c1e89" value="4"/>
+            <characteristic name="Strength" characteristicTypeId="da422735-4e54-c44d-52ec-d2b7c09f66f2" value="4"/>
+            <characteristic name="Grit" characteristicTypeId="5224b0eb-2612-2135-c3f9-ff08c694c198" value="4"/>
+            <characteristic name="Attacks" characteristicTypeId="d840aef3-2b26-3431-da97-e73cba904790" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="841dd19f-3cc0-5603-53b7-5b02944f89a2" value="2"/>
+            <characteristic name="Pluck" characteristicTypeId="88e648e8-c0d7-06ed-1470-b1cf27fe46e8" value="5"/>
+            <characteristic name="Fame" characteristicTypeId="317776fe-3661-4ef7-60ba-d7afa4d441f8" value="1"/>
+            <characteristic name="Fortune" characteristicTypeId="2f1196a1-1189-fb46-8769-746f282301b0" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ce2d-46c5-b518-65a7" name="Leader" hidden="false" targetId="c33c3916-496e-fdd2-4c2b-f02187f34866" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bb50-6125-33a5-147d" name="Starting Experience" hidden="false" targetId="5d154f6d-0fe4-8f38-2a99-49c5f25e8647" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bb6-ed14-c8a5-eca8" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc93-c3ff-63f2-3d5f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="aae6-2a33-d3fe-7d2a" name="New CategoryLink" hidden="false" targetId="a99ce2af-4b23-caf3-113b-8864881eeb09" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9764-301a-5827-fe4d" name="1. Options" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="3fd5-cdfb-4cc2-f5d1" name="Heroes Equipment" hidden="false" targetId="89bc-b632-585e-8670" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f36f-ed3a-5c4d-f60c" name="2. Advancements" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="f891-f65d-cbeb-e89b" name="Experince" hidden="false" targetId="f241-1af6-653c-71e1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57de-b580-14d6-349f" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="b95d-299a-3b11-4e85" name="Skills" hidden="false" targetId="cbd2-4d3c-c9f8-7a75" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="064c-7a86-e53f-e748" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f891-f65d-cbeb-e89b" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name=" Dollars" costTypeId="dollars" value="30.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f41-30de-4cc9-a216" name="Senior Special Agent" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="1cca-9b8f-e76f-6edb" name="Senior Special Agent" hidden="false" profileTypeId="26560ded-284d-ff6c-f97e-0caee6d11d0b" profileTypeName="Heroe">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Shootin&apos;" characteristicTypeId="34000175-fc20-3119-ba49-d9359dd221f7" value="4+"/>
+            <characteristic name="Fightin&apos;" characteristicTypeId="f663c57a-de34-3c05-bc13-2adf5e4c1e89" value="3"/>
+            <characteristic name="Strength" characteristicTypeId="da422735-4e54-c44d-52ec-d2b7c09f66f2" value="3"/>
+            <characteristic name="Grit" characteristicTypeId="5224b0eb-2612-2135-c3f9-ff08c694c198" value="4"/>
+            <characteristic name="Attacks" characteristicTypeId="d840aef3-2b26-3431-da97-e73cba904790" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="841dd19f-3cc0-5603-53b7-5b02944f89a2" value="1"/>
+            <characteristic name="Pluck" characteristicTypeId="88e648e8-c0d7-06ed-1470-b1cf27fe46e8" value="4"/>
+            <characteristic name="Fame" characteristicTypeId="317776fe-3661-4ef7-60ba-d7afa4d441f8" value="0"/>
+            <characteristic name="Fortune" characteristicTypeId="2f1196a1-1189-fb46-8769-746f282301b0" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a52c-9b27-07fa-37c8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="411b-2542-6e53-893e" name="New CategoryLink" hidden="false" targetId="a99ce2af-4b23-caf3-113b-8864881eeb09" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1307-3fe4-95a6-2167" name="1. Options" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="854b-109f-0df1-4fe5" name="Heroes Equipment" hidden="false" targetId="89bc-b632-585e-8670" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c09d-b42a-24b3-c803" name="2. Advancements" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="a6d2-00c1-b7a4-ff8e" name="Experince" hidden="false" targetId="f241-1af6-653c-71e1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="58d8-077e-058c-15d3" name="Skills" hidden="false" targetId="cbd2-4d3c-c9f8-7a75" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="9f41-30de-4cc9-a216" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a6d2-00c1-b7a4-ff8e" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name=" Dollars" costTypeId="dollars" value="19.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="03c1-202a-0ba6-821e" name="Special Agent" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="8d1f-0409-993a-dbc0" name="Special Agent" hidden="false" profileTypeId="4fd1f252-46d0-258f-b859-6a1369d18a86" profileTypeName="Henchman">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Shootin&apos;" characteristicTypeId="f1d3895a-2a29-b294-f9c6-27aac74c5d7b" value="4+"/>
+            <characteristic name="Fightin&apos;" characteristicTypeId="c8093fa2-8706-b4bb-71e6-8d6b31f64993" value="3"/>
+            <characteristic name="Strength" characteristicTypeId="c5c6f55c-1659-dfbc-79a8-5f34c5fbdcf0" value="3"/>
+            <characteristic name="Grit" characteristicTypeId="4601238a-b78a-7a59-2db5-824b0ea48276" value="4"/>
+            <characteristic name="Attacks" characteristicTypeId="c34ada50-115d-7b31-7297-83853d169908" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="b56f3e1a-7fd5-bda9-a124-22b4d68f1155" value="1"/>
+            <characteristic name="Pluck" characteristicTypeId="69dbe09e-7401-7be3-500c-e0709f0e5f42" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6f4-fd55-d21c-254c" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="57c1-c1ed-3394-b33e" name="New CategoryLink" hidden="false" targetId="50528bc6-df85-9543-2cfa-08bf960a74e2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6263-5497-f112-ca87" name="1. Options" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="64a1-d536-f108-727a" name="Henchmen Equipment" hidden="false" targetId="f6a2-e2f3-aa74-cb27" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e6af-91c3-5756-09c1" name="2. Advancements" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="c5a0-8f3b-afd8-c81e" name="Experince" hidden="false" targetId="f241-1af6-653c-71e1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1b9e-8c7f-ccaa-ffd0" name="Skills" hidden="false" targetId="cbd2-4d3c-c9f8-7a75" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="03c1-202a-0ba6-821e" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="011f-dce5-9b3f-4606" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="011f-dce5-9b3f-4606" name="The Kid Done Good." hidden="false" targetId="f01e-045e-509c-fd0e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name=" Dollars" costTypeId="dollars" value="13.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="194c-47cf-3890-1fec" name="Probationary Agents" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d811-7031-0dca-9496" name="Probationary Agents" hidden="false" profileTypeId="4fd1f252-46d0-258f-b859-6a1369d18a86" profileTypeName="Henchman">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Shootin&apos;" characteristicTypeId="f1d3895a-2a29-b294-f9c6-27aac74c5d7b" value="5+"/>
+            <characteristic name="Fightin&apos;" characteristicTypeId="c8093fa2-8706-b4bb-71e6-8d6b31f64993" value="3"/>
+            <characteristic name="Strength" characteristicTypeId="c5c6f55c-1659-dfbc-79a8-5f34c5fbdcf0" value="3"/>
+            <characteristic name="Grit" characteristicTypeId="4601238a-b78a-7a59-2db5-824b0ea48276" value="3"/>
+            <characteristic name="Attacks" characteristicTypeId="c34ada50-115d-7b31-7297-83853d169908" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="b56f3e1a-7fd5-bda9-a124-22b4d68f1155" value="1"/>
+            <characteristic name="Pluck" characteristicTypeId="69dbe09e-7401-7be3-500c-e0709f0e5f42" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a29-6072-32f2-14fa" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a914-f0c0-4d65-13a6" name="New CategoryLink" hidden="false" targetId="50528bc6-df85-9543-2cfa-08bf960a74e2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2e0f-e102-fc5e-dcae" name="1. Options" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="64cd-0e86-14ca-4eea" name="Henchmen Equipment" hidden="false" targetId="f6a2-e2f3-aa74-cb27" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="af10-65f9-4da8-cba3" name="2. Advancements" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="b944-fab0-85d4-629f" name="Experince" hidden="false" targetId="f241-1af6-653c-71e1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="88bb-d711-c922-1704" name="The Kid Done Good." hidden="false" targetId="f01e-045e-509c-fd0e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="8951-11c8-2a92-3c3b" name="Skills" hidden="false" targetId="cbd2-4d3c-c9f8-7a75" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="194c-47cf-3890-1fec" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="88bb-d711-c922-1704" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name=" Dollars" costTypeId="dollars" value="6.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="5.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="f6a2-e2f3-aa74-cb27" name="Henchmen Equipment" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d40-4ebc-7f2d-805e" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="853f-379a-c71b-ac40" type="max"/>
+        <constraint field="dollars" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="99c9-b14d-af12-427b" type="min"/>
+        <constraint field="dollars" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3d82-2532-47a2-fa38" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d64e-44a1-400e-cb1a" type="min"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ae2-acab-d67b-14d8" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a9a8-e3d0-ed3e-1dee" name="Weapons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6df8-c304-7140-c2ae" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="05e7-733d-f904-703a" name="One Handed Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="104a-e1c3-d0ec-23f1" name="Hand Weapon" hidden="false" targetId="14a9f292-d7d9-17ef-3f4a-27821ebbac8d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="2">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="c405-cfe7-7e65-791f" name="Service Revolver" hidden="false" targetId="760d600b-f6cd-e25a-56aa-a5aea350ba20" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="5">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="8fcb-8904-3ad4-8123" name="Heavy Pistol" hidden="false" targetId="a57a22ef-57bd-dae8-fc17-46a31916fec6" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="11">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="8862-63bc-7e9e-7760" name="Two Handed Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f332-c3c2-8edd-6f2f" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="b02a-9039-237a-07f9" name="Double barrel Shotgun" hidden="false" targetId="611b-9a8d-fcbd-f2bb" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="13">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="8878-6a4c-d17b-7ffd" name="Rifle" hidden="false" targetId="325d505d-dc43-cea2-865f-7935b79fe996" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="14">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="4c2b-3fdb-7d1f-3a1b" name="Tommy Gun" hidden="false" targetId="a2f3-00ca-fad0-2097" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="35">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="0709-b209-e272-dbb1" name="Pump-action Shotgun" hidden="false" targetId="9812-c1be-22e2-5db4" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="15">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="89bc-b632-585e-8670" name="Heroes Equipment" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="af83-94fb-8b60-ac15" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8eb0-2598-a8c0-70b8" type="max"/>
+        <constraint field="dollars" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8b0a-bea0-9391-38e1" type="min"/>
+        <constraint field="dollars" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b989-a8e5-67d7-a41e" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5c8f-f731-109f-f0e6" type="min"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6b50-fe90-b992-4be2" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0e92-7948-bdda-6149" name="Weapons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fcd8-ca28-9b9d-4328" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="6837-397d-be8b-4955" name="One Handed Weapon" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="454b-3012-6400-7815" name="Hand Weapon" hidden="false" targetId="14a9f292-d7d9-17ef-3f4a-27821ebbac8d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="1">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="9cbd-ea84-d179-8e8f" name="Service Revolver" hidden="false" targetId="760d600b-f6cd-e25a-56aa-a5aea350ba20" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="5">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="243f-56e5-d996-8780" name="Heavy Pistol" hidden="false" targetId="a57a22ef-57bd-dae8-fc17-46a31916fec6" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="11">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="d8ad-73c4-a655-d212" name="Two Handed Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d5c0-b8ed-bf00-27e8" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="484a-a398-b7e4-cd70" name="Semi-auto Rifle" hidden="false" targetId="98bc-5a02-d6a5-17b6" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="15">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="72ff-3798-3f34-7376" name="Pump-action Shotgun" hidden="false" targetId="9812-c1be-22e2-5db4" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="13">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="331e-2192-c81a-6a7f" name="Sniper Rifle" hidden="false" targetId="6126-5b6d-c164-2c6d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="18">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="aab8-f6f2-2236-0dd7" name="Brawlin&apos; Skills " hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="edcf-3c4e-ea16-6c8f" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0872-0859-f3d8-6508" type="max"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5938-7a89-e155-946c" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c318-c4a4-df2b-aa90" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c553-5978-e774-94c3" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2459-267d-dea1-bc83" type="max"/>
+        <constraint field="dollars" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a2f-80a1-b351-d0fd" type="max"/>
+        <constraint field="dollars" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6753-c990-95f6-af65" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="4a95-b86f-361f-3540" name="1. Pugilist" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="8b10-f6b7-5ebd-61cd" name="Pugilist" hidden="false" targetId="685f-1827-b42c-8ab8" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8bb3-f2ab-13d5-c62d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="47d9-643c-a808-0fea" name="2. Strongman" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="145d-ba22-f27c-7c4c" name="Strongman" hidden="false" targetId="b686-7494-b336-9694" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cd03-230b-9344-55de" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b2c3-04bf-e87b-adb6" name="3. Dirty Fighter" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="312e-c0d2-3670-50fa" name="Dirty Fighter" hidden="false" targetId="75da-0d8f-133c-58e2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cfa9-a6dd-7447-5d9f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0b2c-de53-f24a-b93e" name="4. Nightstick" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="8677-11af-9214-46c9" name="Nightstick" hidden="false" targetId="f9c6-cc9f-1e01-799b" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7dfb-588c-d923-dda6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="51ab-99e6-b66d-5b10" name="5. Fury" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="1e88-aa5c-3960-673c" name="Fury" hidden="false" targetId="38bd-8365-70b8-1cdb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2b87-3f06-aed5-bf99" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7e2e-5bcf-fcee-a7e9" name="6. Sidewinder" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6b0c-cf11-abcd-0247" name="Sidewinder" hidden="false" targetId="5fb8-02dc-b8b7-43f1" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d11a-2b41-b52d-0374" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d58f-4d6e-01ea-6285" name="Moven&apos; Skills " hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1c17-1bfb-d904-b240" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="557a-b742-81d8-8c91" type="max"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9165-bcf6-f13a-b6a7" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="871a-9a90-a169-13cb" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="488f-c9f0-2d37-5f0a" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d46f-78e8-121a-4dbe" type="max"/>
+        <constraint field="dollars" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="497a-c001-20d3-17ee" type="max"/>
+        <constraint field="dollars" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2972-996a-cbab-ecd8" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="f71b-1e46-39d0-a2c6" name="1. Born in the Saddle" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6245-c16b-03a7-df19" name="Born in the Saddle" hidden="false" targetId="3c8c-1680-7dcd-1db0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="427d-d271-d21a-ff3b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7533-4611-050c-8224" name="2. Nimble" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="b31b-c039-a20c-7619" name="Nimble" hidden="false" targetId="f907-abd4-54f0-7b85" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0288-0c8d-5d67-3373" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3db0-6a04-bc30-3e2d" name="3. Stealthy" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="649c-59f2-5f0a-a0a8" name="Stealthy" hidden="false" targetId="6ce9-463e-d3cd-f5e2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="16f8-804a-2a44-24b5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9292-c6bc-8a47-013a" name="4. Lightning jack" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="2c0c-8480-b98d-7c40" name="Lightning jack" hidden="false" targetId="0f4a-eaf4-16df-6fb7" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="28b2-457f-09c6-8fe6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ae59-bb93-82ab-560c" name="5. Dodge" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="b163-ef62-1059-2fb4" name="Dodge" hidden="false" targetId="c6bc-cad7-5722-2193" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2d50-633f-3f7a-b349" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="da18-3452-90f7-2581" name="6. Scout" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="0c57-7ccd-8fbf-ecd5" name="Scout" hidden="false" targetId="8862-ee3f-5e33-a9ce" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="97c6-201b-7bc3-343f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bf9c-86f8-e3a7-0947" name="Savvy Skills" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5eb5-a0c4-652d-3775" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1ebf-3012-e152-1a6f" type="max"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="79b4-1deb-3ea9-8cad" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4891-60ad-c0f2-0490" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3d17-3bf9-9289-39d1" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0749-fe48-4940-430d" type="max"/>
+        <constraint field="dollars" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49fa-5963-86e9-c3af" type="max"/>
+        <constraint field="dollars" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="60f0-6cdc-cc45-5742" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="56a4-2f60-c5cc-1516" name="1. True Grit" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="03e5-2546-c2c1-8fbd" name="True Grit" hidden="false" targetId="9822-176a-d7a2-5fa5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f928-02b8-4ac4-ac5b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8bc2-addb-6aa2-bf1d" name="2. Seasoned Veteran" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="c181-fca4-00d6-8220" name="Seasoned Veteran" hidden="false" targetId="8cfb-8173-db2e-15af" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2efb-e1b1-1b66-4b42" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="88c5-96d3-0d6c-c1bf" name="3. Trader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="41fe-ba69-d94e-b69d" name="Trader" hidden="false" targetId="35ac-98cb-6764-ccc3" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3b49-8117-9f81-78a6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="20b9-bf81-0eb9-66bd" name="4. Repartee" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="8bba-0a4f-1c6c-d78c" name="Repartee" hidden="false" targetId="c3ad-608f-0d5c-3f33" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7bba-d576-3920-f475" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ed84-e189-8ddf-7d4e" name="5. Card Sharp" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="ba64-6647-c578-c331" name="Cardsharp" hidden="false" targetId="ce59b8cd-cb06-a0b0-058a-04cb2f7e5a72" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ed16-f773-4705-88d2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1fdb-c41c-4df7-f65a" name="6. Fearsome Reputation" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="7cdf-639b-d0e3-dc53" name="Fearsome Reputation" hidden="false" targetId="6ea8-bc80-6757-e133" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a4ab-361f-e983-1cd7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1602-7415-505a-11d6" name="Shootn&apos; Skills " hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="034b-56d0-434f-141e" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9c2c-797f-c269-1dc6" type="max"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="49fd-4a5a-bf60-b547" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cc05-747f-9d96-81f2" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="60b2-dabf-0702-d828" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9c24-8534-a1a2-4058" type="max"/>
+        <constraint field="dollars" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55e6-b6d6-f66e-1972" type="max"/>
+        <constraint field="dollars" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6087-e039-e0e2-7293" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="f1b2-e86b-0b23-9a38" name="1. Fast Draw" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="b0ee-182a-58e6-87c1" name="Fast Draw" hidden="false" targetId="6942-09d0-614a-8b8b" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="026e-1514-20b3-a078" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0a9e-bdd3-c24d-b046" name="2. Trick Shooter (please choose)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="12af-4471-8005-9982" name="Trick Shooter" hidden="false" targetId="03d6-4987-5bdf-b1fb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e66b-b46b-99e9-ebb7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="bc7d-b5f9-0354-804b" name="Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="8414-1a9d-c792-82d8" name="Heavy Pistols" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9a0b-c788-5762-131c" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+                    <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="fc41-5425-b153-7479" name="Sixgun" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e842-0d47-30ae-9523" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+                    <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="42bc-9353-fbc3-8190" name="Rifles" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4bf8-82b2-a1a6-11c4" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+                    <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a2b1-3cb7-b2bf-11f1" name="3. Pistolier" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="cea0-2bc8-9d17-38d1" name="Pistolier" hidden="false" targetId="8c14-1b4e-ade1-312d" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e706-a2c1-17d7-2073" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="13c1-94a8-1664-f3f2" name="4. Trigger happy" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d12a-e22a-de1a-ba66" name="Trigger happy" hidden="false" targetId="7d3a-89a5-118d-3aa4" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fc9a-5d32-1f3c-c6df" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b8d6-1b56-2d1f-63a7" name="5. Rifleman" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6b9d-656b-d8e2-e548" name="Rifleman" hidden="false" targetId="d8ee-7046-7993-67c2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2fa9-e021-5f6b-ddc3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9dcb-3eb6-0d2b-aa81" name="6. Deadeye Shot" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="4ba2-70ae-129c-65e1" name="Deadeye Shot" hidden="false" targetId="6f32-bec9-53fc-d224" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9c04-3d1d-c9d8-c84d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Dollars" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="cbd2-4d3c-c9f8-7a75" name="Skills" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9ada-e34e-66f7-1361" name="1. Prefered" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="bb88-6afa-f74b-4d80" name="Savvy Skills" hidden="false" targetId="bf9c-86f8-e3a7-0947" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="92d5-edf2-efd6-60dc" name="Shootn&apos; Skills " hidden="false" targetId="1602-7415-505a-11d6" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="9834-7194-fb87-34c1" name="Brawlin&apos; Skills " hidden="false" targetId="aab8-f6f2-2236-0dd7" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="84fa-dab5-400f-ae3b" name="2. Non Prefered" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="4915-0bd6-f6d9-7249" name="Moven&apos; Skills " hidden="false" targetId="d58f-4d6e-01ea-6285" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>
